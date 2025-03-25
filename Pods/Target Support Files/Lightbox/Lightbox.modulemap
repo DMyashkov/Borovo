@@ -1,6 +1,0 @@
-module Lightbox {
-  umbrella header "Lightbox-umbrella.h"
-
-  export *
-  module * { export * }
-}
