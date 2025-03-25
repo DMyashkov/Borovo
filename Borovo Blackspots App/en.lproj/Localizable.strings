@@ -1,0 +1,132 @@
+/*
+  Localizable.strings
+  Byala Blackspots App
+
+  Created by Ivan Myashkov on 25.12.19.
+  Copyright © 2019 Bitmap LTD. All rights reserved.
+*/
+
+"Идент" = "ID.";
+"Адрес" = "Address";
+"Брой участници" = "Participants count";
+"Брой загинали" = "Fight perished";
+"Брой ранени" = "Number of Wounds";
+"Описание" = "Description";
+"Причина" = "Reason";
+"Участник 1" = "Participant 1";
+"Участник 2" = "Participant 2";
+"Участник 3" = "Participant 3";
+"Интензитет" = "Intensity";
+"Начало на период" = "Start period";
+"Край на период" = "End of period";
+"ИНФОРМАЦИЯ" = "INFORMATION";
+"reconstriction_needed_places" = "reconstriction_needed_places_en";
+"УЧАСТЪЦИ ЗА РЕХАБИЛИТАЦИЯ" = "REHABILITATION SECTIONS";
+"ЗА ПРИЛОЖЕНИЕТО" = "ABOUT THE APP";
+"for_app" = "for_app_en";
+"ЗА ПРОЕКТА" = "ABOUT THE PROJECT";
+"for_project" = "for_project_en";
+"ОБЩИНА БОРОВО" = "BOROVO MUNICIPALITY";
+"mmunicipality" = "mmunicipality_en";
+"ВАЖНИ ОБЕКТИ" = "IMPORTANT OBJECTS";
+"important_objects" = "important_objects_en";
+"safety_instructions" = "safety_instructions_en";
+"ПРАВИЛА ЗА ПЪТНА БЕЗОПАСНОСТ" = "ROAD SAFETY RULES";
+"Избери участник" = "Select participant";
+"Избери причина" = "Select reason";
+"Автомобил" = "Car";
+"Мотоциклет" = "Motorcycle";
+"Пешеходец" = "Pedestrian";
+"Камион" = "Truck";
+"Друго" = "else";
+"Загубване на контрол при управление на МПС" = "Loss of control while driving";
+"Неспазване на предимство на кръстовище" = "Non-Crossroad Advantage";
+"Неправилно разминаване" = "Mismatch";
+"Неправилно завиване" = "Wrong Turn";
+"Неправилно движение на заден ход" = "Incorrect reversing";
+"Движение с несъобразена скорост" = "Motion at an irregular speed";
+"Потегляне на спряло (паркирано) превозно средство без шофьор" = "Towing a stopped (parked) vehicle without a driver";
+"Движение на технически неизправно МПС" = "Driving a technically defective vehicle";
+"Неправилно завиване в обратна посока" = "Incorrect u-turn";
+"Неправилно изпреварване" = "Wrong forward";
+"Неспазване на знаци и светлинни сигнали" = "Ignoring Signs and Lights";
+"Не направляване на ППС с животинска тяга" = "Do not direct animal-driven vehicle";
+"Неспазване на дистанция" = "Failure to observe distance";
+"Неправилни маневри" = "Wrong maneuvers";
+"Камера" = "Camera";
+"Отказ" = "Cancel";
+"СЛЕДВАНЕ" = "FOLLOWING";
+"Участник 2" = "Participant 2";
+"СЛЕДВАНЕ" = "FOLLOWING";
+"Back" = "Back";
+"Избери" = "Choose";
+"Избери" = "Choose";
+"Причина" = "Reason";
+"Избери" = "Reason";
+"ВАЖНИ ОБЕКТИ" = "IMPORTANT OBJECTS";
+"НОВ ИНЦИДЕНТ" = "NEW INCIDENT";
+"Back" = "Back";
+"Участник 1" = "Participant 1";
+"Задръжте пръст върху картата, за да докладвате за инцидент" = "Hold your finger on the map to report an incident";
+"Изпрати" = "Send";
+"ПРАВИЛА ЗА ПЪТНА БЕЗОПАСНОСТ" = "ROAD SAFETY RULES";
+"ГАЛЕРИЯ" = "GALLERY";
+"Пострадали лица" = "Injured persons";
+"Материални щети" = "Property damage";
+"Избери снимка" = "Add Photo";
+"Back" = "Back";
+"Избери" = "Choose";
+"УЧАСТЪЦИ ЗА РЕХАБИЛИТАЦИЯ" = "REHABILITATION SECTIONS";
+"ЗА ПРОЕКТА" = "ABOUT THE PROJECT";
+"ИНФОРМАЦИЯ" = "INFORMATION";
+"ЗА ПРИЛОЖЕНИЕТО" = "ABOUT THE APP";
+"ИНФОРМАЦИЯ" = "INFORMATION";
+"Участник 3" = "Participant 3";
+"ИНФОРМАЦИЯ" = "INFORMATION";
+"ОБЩИНА БОРОВО" = "MUNICIPALITY BOROVO";
+"Нов инцидент" = "New incident";
+"for_the_app" = "The mobile application for the dangerous zones with concentration of accidents in Borovo municipality is implemented under Contract № D-209/21.10.2019 with the Contracting Authority – Borovo Municipality, Ruse Region. It is part of an integrated information system for street safety measures under the project \"W-TEN - Well connected nodes Giurgiu-Borovo to TEN-T transport network\", funded by the program \"INTERREG V-A ROMANIA-BULGARIA\" and national co-financing.
+Its purpose is to provide useful information about the historical accumulation of road accidents on municipal roads that over time have formed locations (zones) that are particularly dangerous and for which the application alerts users when approaching.
+Using it, you can report a new road accident if you witness one, with just a few clicks. You should keep in mind that this reporting does not replace calling 112, so it is important to remember that you must first call 112 and then, if you wish, submit information about the accident through this application.";
+"about_the_project" = "The mobile application for the dangerous zones with concentration of incidents in the Borovo municipality is implemented under Contract № D-209/21.10.2019 with the Contracting Authority – Borovo Municipality, Ruse Region. It is part of an integrated information system for street safety measures under the project \"W-TEN - Well connected nodes Giurgiu-Borovo to TEN-T transport network\", funded by the program \"INTERREG V-A ROMANIA-BULGARIA\" and national co-financing.
+The project aims to improve and restore the transport and operational qualities of the street network in Borovo, which provides connectivity of the town with first class road I-5, which is an important transport artery and section of European transport corridor № 9. The development should bring part from the street network of Borovo /with an approximate total length of about 6 km/ in the necessary operational condition for the traffic and pedestrian flow under maximum conditions of safety and comfort.";
+"about_municipality" = "Located in northern Bulgaria, Ruse region. The area of the municipality is 245.3 sq. km. The municipal center - Byala is 43 km away from Ruse.
+The location of the municipality from a geographical point of view is strategic and determines its place in the national transport, energy and communication infrastructure. The first-class road I-5 /Ruse-Veliko Tarnovo-Podkova/ passes through the territory of the municipality and is a part of the European transport corridor № 9. It allows for fast transportation of passengers and goods to the regional center - Ruse /within 30-40 minutes/, Byala /10-15 minutes/, Veliko Tarnovo /50-60 minutes/ and many other destinations. Borovo Railway Station is located on the 4th railway line /Ruse-G. Oryahovitsa-Podkova/. Over 15 passenger trains, fast trains and international trains in the directions Ruse - Gorna Oryahovitsa pass through the station 24 hours a day.
+ 
+Contacts:
+ 
+Address: Ruse Region
+7174, Borovo
+1А „N. Vaptsarov” Street
+Tel.: +359 8140 22 53
+Service center: +359 817 72150
+Fax: +359 817 74634
+E-mail: byala.rs@byala.bg
+website: www.byala.bg";
+"important_objects_tresure" = "The largest and most significant part of the cultural and historical heritage of Borovo municipality is undoubtedly the Borovo treasure discovered in 1974 from the middle of the 4th century BC, i.e. the time of the Thracian king Kotis /383-359 BC/. It is a royal ritual silver set with gilding, consisting of five vessels - three rhytons with a protome of a bull, a horse and a sphinx, a jug and a bowl.
+According to Georgi Kitov, the Borovo treasure can be defined in the most definite way as a Thracian monument, which combines animal and human images and illustrates the path of stylistic and plot development from geometry to realism.";
+"important_objects_tomb" = "One of the most popular and visited tourist sites in Borovo municipality is the Tomb of a Goth aristocrat from the IV century BC, which is located in the central part of Borovo, under the high school \"St. Kliment Ohridski\". It consists of a rectangular room - a camera, oriented with its long sides in the direction of east - west. Dimensions - length 2.31 m, width 2.09 m. It is covered with a semi-cylindrical vault, the front facade is to the east. The entrance has a trapezoidal shape, the door closes the entrance by sliding in grooves. The crowning with a triangular pediment on the front facade makes the tomb unique. Such coverage for this type of burial facilities is not known so far in our lands.";
+"important_objects_rilski" = "The church \"St. Ivan Rilski\" in Brestovitsa was declared a Monument of Art and Culture in 1973. It was built in 1876.";
+"important_objects_dimitar" = "The church in Gorno Ablanovo is less popular than the one in Brestovitsa, perhaps because it is not a cultural monument. However, the people of Gorno Ablanovo, like our other ancestors, were part of their time - the time of the Revival, when the Bulgarian gave personal money to build temples, schools and community centers. The inhabitants of the village have won the right to build a church, and the former Bulgarian cemetery was chosen as the place of construction. The preparation and construction of the church lasted from 1867 to 1870. It was officially opened in 1871.";
+"important_objects_nature" = "From a conservation point of view, the wetlands along the banks of the Danube River near the village of Batin, Batin island and the protected area \"Doychov island\" are especially valuable.";
+"rehabilitation_sections" = "An important part of the project \"W-TEN - Well connected nodes Giurgiu - Borovo to TEN-T transport network\", funded by the program \"INTERREG V-A ROMANIA - BULGARIA\" and national co-financing is the rehabilitation of municipal streets and road sections in the municipalities of Borovo and Giurgiu.
+Objects of the investment from the Bulgarian side are eight streets/sections of streets on the territory of Borovo, namely:
+1. Gorna Manastiritsa Street – from 1st May Street to Road I-5;
+2. 1st May Street – from Hristo Botev Street to Gorna Manastiritsa Street;
+3. Hristo Botev Street - from 1st May Street to 6th September Street;
+4. 6th September Street - from Hristo Botev Street to Dunav Street /Road III-5101/;
+5. Gorazd Street – from Ivan Vazov Street to 6th September Street.";
+"road_rules" = "1. Observe the traffic rules and speed limits!
+2. Always use seat belts!
+3. Never drive under the influence of alcohol, drugs or other intoxicants!
+4. Use your mobile phones only if you have a hands free device!
+5. If you ride a bicycle, wear a reflective vest!
+6. If you are on a moped or motorcycle, be sure to wear a safety helmet!";
+"rqT-4t-ulV.title" = "INFORMATION";
+"c0T-bv-m6V.title" = "FOR THE APP";
+"XUP-Vv-yzf.title" = "ABOUT THE PROJECT";
+"Xa6-Gy-A9f.title" = "BOROVO MUNICIPALITY";
+"33K-Xl-5jj.title" = "IMPORTANT OBJECTS";
+"uAg-QW-uSq.title" = "REHABILITATION SECTIONS";
+"yfL-xa-lWS.title" = "ROAD SAFETY RULES";
+"Назад" = "Back";

@@ -1,0 +1,96 @@
+
+/* Class = "UILabel"; text = "Участник 2"; ObjectID = "1kk-aR-pIZ"; */
+"1kk-aR-pIZ.text" = "Participant 2";
+
+/* Class = "UILabel"; text = "СЛЕДВАНЕ"; ObjectID = "2fc-Vi-EFs"; */
+"2fc-Vi-EFs.text" = "FOLLOWING";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "5SC-EW-A5f"; */
+"5SC-EW-A5f.title" = "Back";
+
+/* Class = "UITextView"; text = "Избери"; ObjectID = "7MJ-sl-WQT"; */
+"7MJ-sl-WQT.text" = "Choose";
+
+/* Class = "UITextView"; text = "Избери"; ObjectID = "7XC-pm-Z14"; */
+"7XC-pm-Z14.text" = "Choose";
+
+/* Class = "UILabel"; text = "Причина"; ObjectID = "9g2-MY-VVE"; */
+"9g2-MY-VVE.text" = "Reason";
+
+/* Class = "UITextView"; text = "Избери"; ObjectID = "9ul-K6-5gI"; */
+"9ul-K6-5gI.text" = "Reason";
+
+/* Class = "UILabel"; text = "ВАЖНИ ОБЕКТИ"; ObjectID = "BBK-og-Pld"; */
+"BBK-og-Pld.text" = "IMPORTANT OBJECTS";
+
+/* Class = "UITextField"; placeholder = "Брой загинали"; ObjectID = "EnY-hv-kmF"; */
+"EnY-hv-kmF.placeholder" = "Fight perished";
+
+/* Class = "UILabel"; text = "НОВ ИНЦИДЕНТ"; ObjectID = "Mdi-64-eTT"; */
+"Mdi-64-eTT.text" = "NEW INCIDENT";
+
+/* Class = "UITextField"; placeholder = "Брой ранени"; ObjectID = "My5-UQ-isu"; */
+"My5-UQ-isu.placeholder" = "Number of Wounds";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "NgR-rn-mjz"; */
+"NgR-rn-mjz.title" = "Back";
+
+/* Class = "UILabel"; text = "Участник 1"; ObjectID = "S1B-PG-5Dx"; */
+"S1B-PG-5Dx.text" = "Participant 1";
+
+/* Class = "UILabel"; text = "Задръжте пръст върху картата, за да докладвате за инцидент"; ObjectID = "X0j-gi-riL"; */
+"X0j-gi-riL.text" = "Hold your finger on the map to report an incident";
+
+/* Class = "UIButton"; normalTitle = "Изпрати"; ObjectID = "aDT-Hr-HLT"; */
+"aDT-Hr-HLT.normalTitle" = "Send";
+
+/* Class = "UILabel"; text = "ПРАВИЛА ЗА ПЪТНА БЕЗОПАСНОСТ"; ObjectID = "akb-lT-nlx"; */
+"akb-lT-nlx.text" = "ROAD SAFETY RULES";
+
+/* Class = "UILabel"; text = "ГАЛЕРИЯ"; ObjectID = "d6w-DQ-Paq"; */
+"d6w-DQ-Paq.text" = "GALLERY";
+
+/* Class = "UISegmentedControl"; efn-vo-0Go.segmentTitles[0] = "Пострадали лица"; ObjectID = "efn-vo-0Go"; */
+"efn-vo-0Go.segmentTitles[0]" = "Injured persons";
+
+/* Class = "UISegmentedControl"; efn-vo-0Go.segmentTitles[1] = "Материални щети"; ObjectID = "efn-vo-0Go"; */
+"efn-vo-0Go.segmentTitles[1]" = "Property damage";
+
+/* Class = "UIButton"; normalTitle = "Избери снимка"; ObjectID = "g22-2t-g6c"; */
+"g22-2t-g6c.normalTitle" = "Add Photo";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "ha6-cf-zn6"; */
+"ha6-cf-zn6.title" = "Back";
+
+/* Class = "UITextView"; text = "Избери"; ObjectID = "jkH-Id-Qcm"; */
+"jkH-Id-Qcm.text" = "Choose";
+
+/* Class = "UILabel"; text = "УЧАСТЪЦИ ЗА РЕХАБИЛИТАЦИЯ"; ObjectID = "k80-Em-78l"; */
+"k80-Em-78l.text" = "REHABILITATION SECTIONS";
+
+/* Class = "UILabel"; text = "ЗА ПРОЕКТА"; ObjectID = "kl3-q2-wwv"; */
+"kl3-q2-wwv.text" = "ABOUT THE PROJECT";
+
+/* Class = "UILabel"; text = "Описание"; ObjectID = "mz9-aS-7Q0"; */
+"mz9-aS-7Q0.text" = "Description";
+
+/* Class = "UINavigationItem"; title = "ИНФОРМАЦИЯ"; ObjectID = "qFj-xm-E4Y"; */
+"qFj-xm-E4Y.title" = "INFORMATION";
+
+/* Class = "UILabel"; text = "ЗА ПРИЛОЖЕНИЕТО"; ObjectID = "rjk-OV-8qh"; */
+"rjk-OV-8qh.text" = "ABOUT THE APP";
+
+/* Class = "UINavigationItem"; title = "ИНФОРМАЦИЯ"; ObjectID = "uL1-10-1ju"; */
+"uL1-10-1ju.title" = "INFORMATION";
+
+/* Class = "UILabel"; text = "Участник 3"; ObjectID = "uOW-cT-hnd"; */
+"uOW-cT-hnd.text" = "Participant 3";
+
+/* Class = "UILabel"; text = "ИНФОРМАЦИЯ"; ObjectID = "v4l-tg-Iyd"; */
+"v4l-tg-Iyd.text" = "INFORMATION";
+
+/* Class = "UILabel"; text = "ОБЩИНА БЯЛА"; ObjectID = "z5T-LO-RBx"; */
+"z5T-LO-RBx.text" = "MUNICIPALITY BYALA";
+
+/* Class = "UINavigationItem"; title = "Нов инцидент"; ObjectID = "zfL-49-vJa"; */
+"zfL-49-vJa.title" = "New incident";

@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D508D7124B61622007C3262 /* InformationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D508D7024B61622007C3262 /* InformationsViewController.swift */; };
+		444967C223A58399001C078A /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444967C123A58399001C078A /* InformationViewController.swift */; };
+		444967C423A58906001C078A /* comic-sans-ms.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 444967C323A588DC001C078A /* comic-sans-ms.ttf */; };
+		444967CA23A58D56001C078A /* AnnotationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 444967C823A58D56001C078A /* AnnotationView.xib */; };
+		444967CB23A58D56001C078A /* AnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444967C923A58D56001C078A /* AnnotationView.swift */; };
+		444967CD23A596A0001C078A /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444967CC23A596A0001C078A /* Networking.swift */; };
+		492BC9DE23A2E6AA009CE5BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492BC9DD23A2E6AA009CE5BE /* AppDelegate.swift */; };
+		492BC9E023A2E6AA009CE5BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492BC9DF23A2E6AA009CE5BE /* SceneDelegate.swift */; };
+		492BC9E223A2E6AA009CE5BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492BC9E123A2E6AA009CE5BE /* ViewController.swift */; };
+		492BC9E523A2E6AA009CE5BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492BC9E323A2E6AA009CE5BE /* Main.storyboard */; };
+		492BC9E723A2E6B6009CE5BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 492BC9E623A2E6B6009CE5BE /* Assets.xcassets */; };
+		492BC9EA23A2E6B6009CE5BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492BC9E823A2E6B6009CE5BE /* LaunchScreen.storyboard */; };
+		4932FE8C23A67C8C007042A1 /* POIItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4932FE8B23A67C8C007042A1 /* POIItem.swift */; };
+		4932FE8E23A78F66007042A1 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4932FE8D23A78F66007042A1 /* Parser.swift */; };
+		4932FE9323AA2161007042A1 /* ReportAccidentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4932FE9223AA2161007042A1 /* ReportAccidentViewController.swift */; };
+		4959BA3423BB73E300DEBBD3 /* safety_instructions_ro.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4959BA3323BB73E300DEBBD3 /* safety_instructions_ro.pdf */; };
+		4959BA3623BB73F800DEBBD3 /* safety_instructions_en.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4959BA3523BB73F800DEBBD3 /* safety_instructions_en.pdf */; };
+		4959BA3823BB740C00DEBBD3 /* mmunicipality_ro.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4959BA3723BB740C00DEBBD3 /* mmunicipality_ro.pdf */; };
+		4959BA3A23BB741A00DEBBD3 /* important_objects_ro.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4959BA3923BB741A00DEBBD3 /* important_objects_ro.pdf */; };
+		4959BA3C23BB744400DEBBD3 /* for_project_ro.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4959BA3B23BB744400DEBBD3 /* for_project_ro.pdf */; };
+		4959BA3E23BB745100DEBBD3 /* for_app_ro.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4959BA3D23BB745100DEBBD3 /* for_app_ro.pdf */; };
+		4959BA4923C1F12F00DEBBD3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4959BA4B23C1F12F00DEBBD3 /* InfoPlist.strings */; };
+		496B3F9623ABE54200D80A9B /* ImagePickerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B3F9523ABE54200D80A9B /* ImagePickerManager.swift */; };
+		49B4514C23B0218100068891 /* NavigationUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B4514B23B0218100068891 /* NavigationUtils.swift */; };
+		49B4514E23B18FD900068891 /* nearby_black_spot.wav in Resources */ = {isa = PBXBuildFile; fileRef = 49B4514D23B18FD800068891 /* nearby_black_spot.wav */; };
+		49B4515023B1934C00068891 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B4514F23B1934C00068891 /* QuartzCore.framework */; };
+		49B4515223B2137600068891 /* InfoDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B4515123B2137600068891 /* InfoDoc.swift */; };
+		49B4515923B3F9BE00068891 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49B4515B23B3F9BE00068891 /* Localizable.strings */; };
+		49B4517A23B50FB700068891 /* Localizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B4517923B50FB700068891 /* Localizer.swift */; };
+		49D2B68723B6431200130E4D /* important_objects.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 49D2B68623B6431200130E4D /* important_objects.pdf */; };
+		49D2B68923B6440500130E4D /* important_objects_en.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 49D2B68823B6440500130E4D /* important_objects_en.pdf */; };
+		49D2B68D23B6461700130E4D /* for_app.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 49D2B68C23B6461700130E4D /* for_app.pdf */; };
+		49D2B68F23B6469E00130E4D /* for_app_en.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 49D2B68E23B6469D00130E4D /* for_app_en.pdf */; };
+		49D2B69323B6486700130E4D /* for_project.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 49D2B69223B6486600130E4D /* for_project.pdf */; };
+		49D2B69523B649BB00130E4D /* for_project_en.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 49D2B69423B649BA00130E4D /* for_project_en.pdf */; };
+		49D2B69923B64AA100130E4D /* mmunicipality.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 49D2B69823B64AA100130E4D /* mmunicipality.pdf */; };
+		49D2B69B23B64B7100130E4D /* mmunicipality_en.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 49D2B69A23B64B7100130E4D /* mmunicipality_en.pdf */; };
+		49D2B69F23B64C8A00130E4D /* safety_instructions.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 49D2B69E23B64C8A00130E4D /* safety_instructions.pdf */; };
+		49D2B6AA23BA129500130E4D /* reconstriction_needed_places_ro.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 49D2B6A123BA129300130E4D /* reconstriction_needed_places_ro.pdf */; };
+		49D2B6AB23BA129500130E4D /* reconstriction_needed_places_en.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 49D2B6A223BA129400130E4D /* reconstriction_needed_places_en.pdf */; };
+		49D2B6AE23BA129500130E4D /* reconstriction_needed_places.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 49D2B6A523BA129400130E4D /* reconstriction_needed_places.pdf */; };
+		9562551825701D780020EA96 /* LocalisableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9562551725701D780020EA96 /* LocalisableLabel.swift */; };
+		9562551A257184E30020EA96 /* ForTheProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95625519257184E30020EA96 /* ForTheProject.swift */; };
+		9562551C2571856F0020EA96 /* ForTheApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9562551B2571856F0020EA96 /* ForTheApp.swift */; };
+		9562551E2571857F0020EA96 /* Municipality.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9562551D2571857F0020EA96 /* Municipality.swift */; };
+		95625520257185A20020EA96 /* Rehabilitation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9562551F257185A20020EA96 /* Rehabilitation.swift */; };
+		95625522257185B30020EA96 /* RoadRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95625521257185B30020EA96 /* RoadRules.swift */; };
+		95625524257186100020EA96 /* ImportantObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95625523257186100020EA96 /* ImportantObjects.swift */; };
+		A91F24D09B38FA8B00FDE934 /* libPods-Borovo Blackspots App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0074A99DAE6CE6A7982413C /* libPods-Borovo Blackspots App.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B08EBF8FF05393B5A90ED39 /* Pods-Borovo Blackspots App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Borovo Blackspots App.debug.xcconfig"; path = "Target Support Files/Pods-Borovo Blackspots App/Pods-Borovo Blackspots App.debug.xcconfig"; sourceTree = "<group>"; };
+		0D508D7024B61622007C3262 /* InformationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformationsViewController.swift; sourceTree = "<group>"; };
+		31FE2D425A9E53F25C12FAA1 /* Pods-Borovo Blackspots App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Borovo Blackspots App.release.xcconfig"; path = "Target Support Files/Pods-Borovo Blackspots App/Pods-Borovo Blackspots App.release.xcconfig"; sourceTree = "<group>"; };
+		444967C123A58399001C078A /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
+		444967C323A588DC001C078A /* comic-sans-ms.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "comic-sans-ms.ttf"; sourceTree = "<group>"; };
+		444967C823A58D56001C078A /* AnnotationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnnotationView.xib; sourceTree = "<group>"; };
+		444967C923A58D56001C078A /* AnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnotationView.swift; sourceTree = "<group>"; };
+		444967CC23A596A0001C078A /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		492BC9DA23A2E6AA009CE5BE /* Borovo Blackspots App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Borovo Blackspots App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		492BC9DD23A2E6AA009CE5BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		492BC9DF23A2E6AA009CE5BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		492BC9E123A2E6AA009CE5BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		492BC9E423A2E6AA009CE5BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		492BC9E623A2E6B6009CE5BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		492BC9E923A2E6B6009CE5BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		492BC9EB23A2E6B6009CE5BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4932FE8823A6338A007042A1 /* Borovo Blackspots App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Borovo Blackspots App-Bridging-Header.h"; sourceTree = "<group>"; };
+		4932FE8B23A67C8C007042A1 /* POIItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POIItem.swift; sourceTree = "<group>"; };
+		4932FE8D23A78F66007042A1 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		4932FE9223AA2161007042A1 /* ReportAccidentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportAccidentViewController.swift; sourceTree = "<group>"; };
+		4959BA3323BB73E300DEBBD3 /* safety_instructions_ro.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = safety_instructions_ro.pdf; sourceTree = "<group>"; };
+		4959BA3523BB73F800DEBBD3 /* safety_instructions_en.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = safety_instructions_en.pdf; sourceTree = "<group>"; };
+		4959BA3723BB740C00DEBBD3 /* mmunicipality_ro.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = mmunicipality_ro.pdf; sourceTree = "<group>"; };
+		4959BA3923BB741A00DEBBD3 /* important_objects_ro.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = important_objects_ro.pdf; sourceTree = "<group>"; };
+		4959BA3B23BB744400DEBBD3 /* for_project_ro.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = for_project_ro.pdf; sourceTree = "<group>"; };
+		4959BA3D23BB745100DEBBD3 /* for_app_ro.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = for_app_ro.pdf; sourceTree = "<group>"; };
+		4959BA4A23C1F12F00DEBBD3 /* bg */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = bg; path = bg.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4959BA4C23C1F13700DEBBD3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4959BA4D23C1F13800DEBBD3 /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		496B3F9523ABE54200D80A9B /* ImagePickerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerManager.swift; sourceTree = "<group>"; };
+		49B4514A23AC466B00068891 /* Borovo Blackspots App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Borovo Blackspots App.entitlements"; sourceTree = "<group>"; };
+		49B4514B23B0218100068891 /* NavigationUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationUtils.swift; sourceTree = "<group>"; };
+		49B4514D23B18FD800068891 /* nearby_black_spot.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = nearby_black_spot.wav; sourceTree = "<group>"; };
+		49B4514F23B1934C00068891 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		49B4515123B2137600068891 /* InfoDoc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoDoc.swift; sourceTree = "<group>"; };
+		49B4515A23B3F9BE00068891 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		49B4515D23B3F9D100068891 /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/Localizable.strings; sourceTree = "<group>"; };
+		49B4515E23B3FF7E00068891 /* bg */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = bg; path = bg.lproj/Localizable.strings; sourceTree = "<group>"; };
+		49B4517923B50FB700068891 /* Localizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizer.swift; sourceTree = "<group>"; };
+		49D2B68623B6431200130E4D /* important_objects.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = important_objects.pdf; sourceTree = "<group>"; };
+		49D2B68823B6440500130E4D /* important_objects_en.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = important_objects_en.pdf; sourceTree = "<group>"; };
+		49D2B68C23B6461700130E4D /* for_app.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = for_app.pdf; sourceTree = "<group>"; };
+		49D2B68E23B6469D00130E4D /* for_app_en.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = for_app_en.pdf; sourceTree = "<group>"; };
+		49D2B69223B6486600130E4D /* for_project.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = for_project.pdf; sourceTree = "<group>"; };
+		49D2B69423B649BA00130E4D /* for_project_en.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = for_project_en.pdf; sourceTree = "<group>"; };
+		49D2B69823B64AA100130E4D /* mmunicipality.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = mmunicipality.pdf; sourceTree = "<group>"; };
+		49D2B69A23B64B7100130E4D /* mmunicipality_en.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = mmunicipality_en.pdf; sourceTree = "<group>"; };
+		49D2B69E23B64C8A00130E4D /* safety_instructions.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = safety_instructions.pdf; sourceTree = "<group>"; };
+		49D2B6A123BA129300130E4D /* reconstriction_needed_places_ro.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = reconstriction_needed_places_ro.pdf; sourceTree = "<group>"; };
+		49D2B6A223BA129400130E4D /* reconstriction_needed_places_en.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = reconstriction_needed_places_en.pdf; sourceTree = "<group>"; };
+		49D2B6A523BA129400130E4D /* reconstriction_needed_places.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = reconstriction_needed_places.pdf; sourceTree = "<group>"; };
+		9562551725701D780020EA96 /* LocalisableLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalisableLabel.swift; sourceTree = "<group>"; };
+		95625519257184E30020EA96 /* ForTheProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForTheProject.swift; sourceTree = "<group>"; };
+		9562551B2571856F0020EA96 /* ForTheApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForTheApp.swift; sourceTree = "<group>"; };
+		9562551D2571857F0020EA96 /* Municipality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Municipality.swift; sourceTree = "<group>"; };
+		9562551F257185A20020EA96 /* Rehabilitation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rehabilitation.swift; sourceTree = "<group>"; };
+		95625521257185B30020EA96 /* RoadRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadRules.swift; sourceTree = "<group>"; };
+		95625523257186100020EA96 /* ImportantObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportantObjects.swift; sourceTree = "<group>"; };
+		B0074A99DAE6CE6A7982413C /* libPods-Borovo Blackspots App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Borovo Blackspots App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		492BC9D723A2E6AA009CE5BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B4515023B1934C00068891 /* QuartzCore.framework in Frameworks */,
+				A91F24D09B38FA8B00FDE934 /* libPods-Borovo Blackspots App.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		444967BE23A5832A001C078A /* info_docs */ = {
+			isa = PBXGroup;
+			children = (
+				49D2B68C23B6461700130E4D /* for_app.pdf */,
+				49D2B68E23B6469D00130E4D /* for_app_en.pdf */,
+				4959BA3D23BB745100DEBBD3 /* for_app_ro.pdf */,
+				49D2B6A523BA129400130E4D /* reconstriction_needed_places.pdf */,
+				49D2B6A223BA129400130E4D /* reconstriction_needed_places_en.pdf */,
+				49D2B6A123BA129300130E4D /* reconstriction_needed_places_ro.pdf */,
+				49D2B69223B6486600130E4D /* for_project.pdf */,
+				49D2B69423B649BA00130E4D /* for_project_en.pdf */,
+				4959BA3B23BB744400DEBBD3 /* for_project_ro.pdf */,
+				49D2B69E23B64C8A00130E4D /* safety_instructions.pdf */,
+				4959BA3323BB73E300DEBBD3 /* safety_instructions_ro.pdf */,
+				4959BA3523BB73F800DEBBD3 /* safety_instructions_en.pdf */,
+				49D2B68623B6431200130E4D /* important_objects.pdf */,
+				49D2B68823B6440500130E4D /* important_objects_en.pdf */,
+				4959BA3923BB741A00DEBBD3 /* important_objects_ro.pdf */,
+				49D2B69823B64AA100130E4D /* mmunicipality.pdf */,
+				49D2B69A23B64B7100130E4D /* mmunicipality_en.pdf */,
+				4959BA3723BB740C00DEBBD3 /* mmunicipality_ro.pdf */,
+				49B4515123B2137600068891 /* InfoDoc.swift */,
+			);
+			path = info_docs;
+			sourceTree = "<group>";
+		};
+		444967C723A58D37001C078A /* AnnotationView */ = {
+			isa = PBXGroup;
+			children = (
+				444967C923A58D56001C078A /* AnnotationView.swift */,
+				444967C823A58D56001C078A /* AnnotationView.xib */,
+			);
+			path = AnnotationView;
+			sourceTree = "<group>";
+		};
+		492BC9D123A2E6AA009CE5BE = {
+			isa = PBXGroup;
+			children = (
+				492BC9DC23A2E6AA009CE5BE /* Borovo Blackspots App */,
+				492BC9DB23A2E6AA009CE5BE /* Products */,
+				FCE9129A6D89DFD5E51F8EA8 /* Pods */,
+				83174B46892C6DCCE7EDA865 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		492BC9DB23A2E6AA009CE5BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				492BC9DA23A2E6AA009CE5BE /* Borovo Blackspots App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		492BC9DC23A2E6AA009CE5BE /* Borovo Blackspots App */ = {
+			isa = PBXGroup;
+			children = (
+				49B4514A23AC466B00068891 /* Borovo Blackspots App.entitlements */,
+				4932FE8F23A9953C007042A1 /* sound effects */,
+				4932FE8A23A67C6D007042A1 /* MapUtils */,
+				444967CC23A596A0001C078A /* Networking.swift */,
+				444967C723A58D37001C078A /* AnnotationView */,
+				444967BE23A5832A001C078A /* info_docs */,
+				4972917723A3D93700A94E78 /* fonts */,
+				492BC9DD23A2E6AA009CE5BE /* AppDelegate.swift */,
+				492BC9DF23A2E6AA009CE5BE /* SceneDelegate.swift */,
+				492BC9E123A2E6AA009CE5BE /* ViewController.swift */,
+				0D508D7024B61622007C3262 /* InformationsViewController.swift */,
+				4932FE9223AA2161007042A1 /* ReportAccidentViewController.swift */,
+				492BC9E323A2E6AA009CE5BE /* Main.storyboard */,
+				492BC9E623A2E6B6009CE5BE /* Assets.xcassets */,
+				492BC9E823A2E6B6009CE5BE /* LaunchScreen.storyboard */,
+				492BC9EB23A2E6B6009CE5BE /* Info.plist */,
+				444967C123A58399001C078A /* InformationViewController.swift */,
+				4932FE8823A6338A007042A1 /* Borovo Blackspots App-Bridging-Header.h */,
+				4932FE8D23A78F66007042A1 /* Parser.swift */,
+				496B3F9523ABE54200D80A9B /* ImagePickerManager.swift */,
+				49B4514B23B0218100068891 /* NavigationUtils.swift */,
+				49B4517923B50FB700068891 /* Localizer.swift */,
+				49B4515B23B3F9BE00068891 /* Localizable.strings */,
+				4959BA4B23C1F12F00DEBBD3 /* InfoPlist.strings */,
+				9562551725701D780020EA96 /* LocalisableLabel.swift */,
+				95625519257184E30020EA96 /* ForTheProject.swift */,
+				9562551B2571856F0020EA96 /* ForTheApp.swift */,
+				9562551D2571857F0020EA96 /* Municipality.swift */,
+				9562551F257185A20020EA96 /* Rehabilitation.swift */,
+				95625521257185B30020EA96 /* RoadRules.swift */,
+				95625523257186100020EA96 /* ImportantObjects.swift */,
+			);
+			path = "Borovo Blackspots App";
+			sourceTree = "<group>";
+		};
+		4932FE8A23A67C6D007042A1 /* MapUtils */ = {
+			isa = PBXGroup;
+			children = (
+				4932FE8B23A67C8C007042A1 /* POIItem.swift */,
+			);
+			path = MapUtils;
+			sourceTree = "<group>";
+		};
+		4932FE8F23A9953C007042A1 /* sound effects */ = {
+			isa = PBXGroup;
+			children = (
+				49B4514D23B18FD800068891 /* nearby_black_spot.wav */,
+			);
+			path = "sound effects";
+			sourceTree = "<group>";
+		};
+		4972917723A3D93700A94E78 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				444967C323A588DC001C078A /* comic-sans-ms.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		83174B46892C6DCCE7EDA865 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49B4514F23B1934C00068891 /* QuartzCore.framework */,
+				B0074A99DAE6CE6A7982413C /* libPods-Borovo Blackspots App.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCE9129A6D89DFD5E51F8EA8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B08EBF8FF05393B5A90ED39 /* Pods-Borovo Blackspots App.debug.xcconfig */,
+				31FE2D425A9E53F25C12FAA1 /* Pods-Borovo Blackspots App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		492BC9D923A2E6AA009CE5BE /* Borovo Blackspots App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 492BC9EE23A2E6B6009CE5BE /* Build configuration list for PBXNativeTarget "Borovo Blackspots App" */;
+			buildPhases = (
+				2DBABF84427DDF156D6FFB82 /* [CP] Check Pods Manifest.lock */,
+				492BC9D623A2E6AA009CE5BE /* Sources */,
+				492BC9D723A2E6AA009CE5BE /* Frameworks */,
+				492BC9D823A2E6AA009CE5BE /* Resources */,
+				E99C7FF50F72364B4D175B88 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Borovo Blackspots App";
+			productName = "Byala Blackspots App";
+			productReference = 492BC9DA23A2E6AA009CE5BE /* Borovo Blackspots App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		492BC9D223A2E6AA009CE5BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Bitmap LTD";
+				TargetAttributes = {
+					492BC9D923A2E6AA009CE5BE = {
+						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 492BC9D523A2E6AA009CE5BE /* Build configuration list for PBXProject "Borovo Blackspots App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = bg;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				bg,
+				Base,
+				ro,
+				en,
+			);
+			mainGroup = 492BC9D123A2E6AA009CE5BE;
+			productRefGroup = 492BC9DB23A2E6AA009CE5BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				492BC9D923A2E6AA009CE5BE /* Borovo Blackspots App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		492BC9D823A2E6AA009CE5BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4959BA3C23BB744400DEBBD3 /* for_project_ro.pdf in Resources */,
+				492BC9EA23A2E6B6009CE5BE /* LaunchScreen.storyboard in Resources */,
+				49D2B69523B649BB00130E4D /* for_project_en.pdf in Resources */,
+				4959BA4923C1F12F00DEBBD3 /* InfoPlist.strings in Resources */,
+				49B4515923B3F9BE00068891 /* Localizable.strings in Resources */,
+				49D2B6AB23BA129500130E4D /* reconstriction_needed_places_en.pdf in Resources */,
+				49D2B68D23B6461700130E4D /* for_app.pdf in Resources */,
+				49D2B69323B6486700130E4D /* for_project.pdf in Resources */,
+				4959BA3623BB73F800DEBBD3 /* safety_instructions_en.pdf in Resources */,
+				444967CA23A58D56001C078A /* AnnotationView.xib in Resources */,
+				49D2B69923B64AA100130E4D /* mmunicipality.pdf in Resources */,
+				49D2B69B23B64B7100130E4D /* mmunicipality_en.pdf in Resources */,
+				492BC9E723A2E6B6009CE5BE /* Assets.xcassets in Resources */,
+				4959BA3E23BB745100DEBBD3 /* for_app_ro.pdf in Resources */,
+				4959BA3A23BB741A00DEBBD3 /* important_objects_ro.pdf in Resources */,
+				4959BA3423BB73E300DEBBD3 /* safety_instructions_ro.pdf in Resources */,
+				49D2B68F23B6469E00130E4D /* for_app_en.pdf in Resources */,
+				49D2B6AA23BA129500130E4D /* reconstriction_needed_places_ro.pdf in Resources */,
+				49D2B6AE23BA129500130E4D /* reconstriction_needed_places.pdf in Resources */,
+				492BC9E523A2E6AA009CE5BE /* Main.storyboard in Resources */,
+				444967C423A58906001C078A /* comic-sans-ms.ttf in Resources */,
+				49B4514E23B18FD900068891 /* nearby_black_spot.wav in Resources */,
+				49D2B68723B6431200130E4D /* important_objects.pdf in Resources */,
+				49D2B69F23B64C8A00130E4D /* safety_instructions.pdf in Resources */,
+				49D2B68923B6440500130E4D /* important_objects_en.pdf in Resources */,
+				4959BA3823BB740C00DEBBD3 /* mmunicipality_ro.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DBABF84427DDF156D6FFB82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Borovo Blackspots App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E99C7FF50F72364B4D175B88 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Borovo Blackspots App/Pods-Borovo Blackspots App-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Borovo Blackspots App/Pods-Borovo Blackspots App-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Borovo Blackspots App/Pods-Borovo Blackspots App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		492BC9D623A2E6AA009CE5BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D508D7124B61622007C3262 /* InformationsViewController.swift in Sources */,
+				496B3F9623ABE54200D80A9B /* ImagePickerManager.swift in Sources */,
+				49B4514C23B0218100068891 /* NavigationUtils.swift in Sources */,
+				95625522257185B30020EA96 /* RoadRules.swift in Sources */,
+				492BC9E223A2E6AA009CE5BE /* ViewController.swift in Sources */,
+				95625520257185A20020EA96 /* Rehabilitation.swift in Sources */,
+				4932FE9323AA2161007042A1 /* ReportAccidentViewController.swift in Sources */,
+				9562551A257184E30020EA96 /* ForTheProject.swift in Sources */,
+				9562551825701D780020EA96 /* LocalisableLabel.swift in Sources */,
+				9562551C2571856F0020EA96 /* ForTheApp.swift in Sources */,
+				444967CB23A58D56001C078A /* AnnotationView.swift in Sources */,
+				49B4517A23B50FB700068891 /* Localizer.swift in Sources */,
+				492BC9DE23A2E6AA009CE5BE /* AppDelegate.swift in Sources */,
+				444967CD23A596A0001C078A /* Networking.swift in Sources */,
+				4932FE8E23A78F66007042A1 /* Parser.swift in Sources */,
+				95625524257186100020EA96 /* ImportantObjects.swift in Sources */,
+				9562551E2571857F0020EA96 /* Municipality.swift in Sources */,
+				492BC9E023A2E6AA009CE5BE /* SceneDelegate.swift in Sources */,
+				444967C223A58399001C078A /* InformationViewController.swift in Sources */,
+				4932FE8C23A67C8C007042A1 /* POIItem.swift in Sources */,
+				49B4515223B2137600068891 /* InfoDoc.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		492BC9E323A2E6AA009CE5BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				492BC9E423A2E6AA009CE5BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		492BC9E823A2E6B6009CE5BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				492BC9E923A2E6B6009CE5BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4959BA4B23C1F12F00DEBBD3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4959BA4A23C1F12F00DEBBD3 /* bg */,
+				4959BA4C23C1F13700DEBBD3 /* en */,
+				4959BA4D23C1F13800DEBBD3 /* ro */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		49B4515B23B3F9BE00068891 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49B4515A23B3F9BE00068891 /* en */,
+				49B4515D23B3F9D100068891 /* ro */,
+				49B4515E23B3FF7E00068891 /* bg */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		492BC9EC23A2E6B6009CE5BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		492BC9ED23A2E6B6009CE5BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		492BC9EF23A2E6B6009CE5BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B08EBF8FF05393B5A90ED39 /* Pods-Borovo Blackspots App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Borovo Blackspots App/Borovo Blackspots App.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 15;
+				DEVELOPMENT_TEAM = M32QLU6774;
+				INFOPLIST_FILE = "Borovo Blackspots App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "eu.blackspots.Borovo-Blackspots-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Borovo Blackspots App/Borovo Blackspots App-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		492BC9F023A2E6B6009CE5BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31FE2D425A9E53F25C12FAA1 /* Pods-Borovo Blackspots App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Borovo Blackspots App/Borovo Blackspots App.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 15;
+				DEVELOPMENT_TEAM = M32QLU6774;
+				INFOPLIST_FILE = "Borovo Blackspots App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "eu.blackspots.Borovo-Blackspots-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Borovo Blackspots App/Borovo Blackspots App-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		492BC9D523A2E6AA009CE5BE /* Build configuration list for PBXProject "Borovo Blackspots App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				492BC9EC23A2E6B6009CE5BE /* Debug */,
+				492BC9ED23A2E6B6009CE5BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		492BC9EE23A2E6B6009CE5BE /* Build configuration list for PBXNativeTarget "Borovo Blackspots App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				492BC9EF23A2E6B6009CE5BE /* Debug */,
+				492BC9F023A2E6B6009CE5BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 492BC9D223A2E6AA009CE5BE /* Project object */;
+}

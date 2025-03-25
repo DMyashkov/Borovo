@@ -1,0 +1,6 @@
+module Pods_Borovo_Blackspots_App {
+  umbrella header "Pods-Borovo Blackspots App-umbrella.h"
+
+  export *
+  module * { export * }
+}

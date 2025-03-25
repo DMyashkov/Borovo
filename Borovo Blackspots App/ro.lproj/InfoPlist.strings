@@ -1,0 +1,11 @@
+/*
+  InfoPlist.strings
+  Byala Blackspots App
+
+  Created by Ivan Myashkov on 5.01.20.
+  Copyright © 2020 Bitmap LTD. All rights reserved.
+*/
+
+NSPhotoLibraryUsageDescription = "Photo library acces is needed to add photo to accident report";
+NSCameraUsageDescription = "Camera acces is needed to add photo to accident report";
+NSLocationWhenInUseUsageDescription = "Location is needed to receive alerts for dangerous spots on the road";

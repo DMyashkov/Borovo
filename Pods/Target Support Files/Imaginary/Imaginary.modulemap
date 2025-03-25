@@ -1,0 +1,6 @@
+module Imaginary {
+  umbrella header "Imaginary-umbrella.h"
+
+  export *
+  module * { export * }
+}

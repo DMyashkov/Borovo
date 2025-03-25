@@ -1,0 +1,11 @@
+/* 
+  InfoPlist.strings
+  Byala Blackspots App
+
+  Created by Ivan Myashkov on 5.01.20.
+  Copyright © 2020 Bitmap LTD. All rights reserved.
+*/
+
+NSPhotoLibraryUsageDescription = "Може да изберете снимка, за да докладвате за инцидент";
+NSCameraUsageDescription = "Може да направите снимка, за да докладвате за инцидент";
+NSLocationWhenInUseUsageDescription = "Нуждаем се от местоположението ви, за да ви предупреждаваме за опасности по пътя";
