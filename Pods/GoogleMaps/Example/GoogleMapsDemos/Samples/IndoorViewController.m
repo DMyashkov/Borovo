@@ -1,5 +1,5 @@
 /*
- * Copyright 2016 Google Inc. All rights reserved.
+ * Copyright 2016 Google LLC. All rights reserved.
  *
  *
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not use this
@@ -51,7 +51,6 @@ static NSString *const kNightType = @"Night";
                                                                zoom:18];
 
   _mapView = [GMSMapView mapWithFrame:CGRectZero camera:camera];
-  _mapView.settings.myLocationButton = YES;
 
   UIBarButtonItem *styleButton = [[UIBarButtonItem alloc] initWithTitle:@"Style"
                                                                   style:UIBarButtonItemStylePlain

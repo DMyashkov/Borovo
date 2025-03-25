@@ -1,5 +1,5 @@
 /*
- * Copyright 2016 Google Inc. All rights reserved.
+ * Copyright 2016 Google LLC. All rights reserved.
  *
  *
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not use this
@@ -17,7 +17,7 @@
 
 #import <GoogleMaps/GoogleMaps.h>
 
-static CGFloat kOverlayHeight = 140.0f;
+static const CGFloat kOverlayHeight = 140.0f;
 
 @implementation VisibleRegionViewController {
   GMSMapView *_mapView;
@@ -56,17 +56,19 @@ static CGFloat kOverlayHeight = 140.0f;
 - (void)didTapFlyIn {
   UIEdgeInsets padding = _mapView.padding;
 
-  [UIView animateWithDuration:2.0 animations:^{
-    CGSize size = self.view.bounds.size;
-    if (padding.bottom == 0.0f) {
-      self->_overlay.frame =
-          CGRectMake(0, size.height - kOverlayHeight, size.width, kOverlayHeight);
-      self->_mapView.padding = UIEdgeInsetsMake(0, 0, kOverlayHeight, 0);
-    } else {
-      self->_overlay.frame = CGRectMake(0, self->_mapView.bounds.size.height, size.width, 0);
-      self->_mapView.padding = UIEdgeInsetsZero;
-    }
-  }];
+  [UIView animateWithDuration:2.0
+                   animations:^{
+                     CGSize size = self.view.bounds.size;
+                     if (padding.bottom == 0.0f) {
+                       self->_overlay.frame =
+                           CGRectMake(0, size.height - kOverlayHeight, size.width, kOverlayHeight);
+                       self->_mapView.padding = UIEdgeInsetsMake(0, 0, kOverlayHeight, 0);
+                     } else {
+                       self->_overlay.frame =
+                           CGRectMake(0, self->_mapView.bounds.size.height, size.width, 0);
+                       self->_mapView.padding = UIEdgeInsetsZero;
+                     }
+                   }];
 }
 
 @end

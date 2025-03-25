@@ -1,4 +1,8 @@
 ${PODS_ROOT}/Target Support Files/Pods-Borovo Blackspots App/Pods-Borovo Blackspots App-resources.sh
-${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle
-${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/Alamofire/Alamofire.bundle
+${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.xcframework/ios-arm64/GoogleMaps.framework/Resources/GoogleMaps.bundle
+${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.xcframework/ios-arm64_x86_64-simulator/GoogleMaps.framework/Resources/GoogleMaps.bundle
+${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.xcframework/ios-arm64/GooglePlaces.framework/Resources/GooglePlaces.bundle
+${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.xcframework/ios-arm64_x86_64-simulator/GooglePlaces.framework/Resources/GooglePlaces.bundle
 ${PODS_ROOT}/Lightbox/Resources/Lightbox.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/SwiftyJSON/SwiftyJSON.bundle

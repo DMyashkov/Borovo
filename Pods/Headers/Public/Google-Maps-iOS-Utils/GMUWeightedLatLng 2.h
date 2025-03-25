@@ -1,1 +1,0 @@
-../../../Google-Maps-iOS-Utils/src/Heatmap/GMUWeightedLatLng 2.h

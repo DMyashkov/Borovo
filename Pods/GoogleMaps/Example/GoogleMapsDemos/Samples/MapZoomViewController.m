@@ -1,5 +1,5 @@
 /*
- * Copyright 2016 Google Inc. All rights reserved.
+ * Copyright 2016 Google LLC. All rights reserved.
  *
  *
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not use this
@@ -34,8 +34,7 @@
 
   // Add a display for the current zoom range restriction.
   _zoomRangeView = [[UITextView alloc] init];
-  _zoomRangeView.frame =
-      CGRectMake(0, 0, CGRectGetWidth(self.view.frame), 0);
+  _zoomRangeView.frame = CGRectMake(0, 0, CGRectGetWidth(self.view.frame), 0);
   _zoomRangeView.text = @"";
   _zoomRangeView.textAlignment = NSTextAlignmentCenter;
   _zoomRangeView.backgroundColor = [UIColor colorWithWhite:1.0 alpha:0.8f];

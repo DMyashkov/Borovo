@@ -1,5 +1,5 @@
 /*
- * Copyright 2016 Google Inc. All rights reserved.
+ * Copyright 2016 Google LLC. All rights reserved.
  *
  *
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not use this
@@ -64,9 +64,7 @@
 }
 
 - (void)dealloc {
-  [_mapView removeObserver:self
-                forKeyPath:@"myLocation"
-                   context:NULL];
+  [_mapView removeObserver:self forKeyPath:@"myLocation" context:NULL];
 }
 
 #pragma mark - KVO updates
@@ -76,12 +74,10 @@
                         change:(NSDictionary *)change
                        context:(void *)context {
   if (!_firstLocationUpdate) {
-    // If the first location update has not yet been received, then jump to that
-    // location.
+    // If the first location update has not yet been received, then jump to that location.
     _firstLocationUpdate = YES;
     CLLocation *location = [change objectForKey:NSKeyValueChangeNewKey];
-    _mapView.camera = [GMSCameraPosition cameraWithTarget:location.coordinate
-                                                     zoom:14];
+    _mapView.camera = [GMSCameraPosition cameraWithTarget:location.coordinate zoom:14];
   }
 }
 

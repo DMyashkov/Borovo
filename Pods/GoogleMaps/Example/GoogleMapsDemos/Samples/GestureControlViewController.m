@@ -1,5 +1,5 @@
 /*
- * Copyright 2016 Google Inc. All rights reserved.
+ * Copyright 2016 Google LLC. All rights reserved.
  *
  *
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not use this
@@ -29,8 +29,8 @@
                                                                zoom:3];
 
   _mapView = [GMSMapView mapWithFrame:CGRectZero camera:camera];
-  _mapView.autoresizingMask =
-      UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+  _mapView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+  _mapView.accessibilityIdentifier = @"gestureControlDemoMapView";
 
   self.view = [[UIView alloc] initWithFrame:CGRectZero];
   [self.view addSubview:_mapView];

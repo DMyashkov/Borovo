@@ -1,5 +1,5 @@
 /*
- * Copyright 2016 Google Inc. All rights reserved.
+ * Copyright 2016 Google LLC. All rights reserved.
  *
  *
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not use this
@@ -42,19 +42,18 @@
   _switcher = [[UISegmentedControl alloc] initWithItems:types];
   _switcher.selectedSegmentIndex = 0;
   _switcher.autoresizingMask = UIViewAutoresizingFlexibleWidth;
-  _switcher.frame =
-      CGRectMake(0, 0, 300, _switcher.frame.size.height);
+  _switcher.frame = CGRectMake(0, 0, 300, _switcher.frame.size.height);
   self.navigationItem.titleView = _switcher;
 
   // Listen to touch events on the UISegmentedControl, force initial update.
-  [_switcher addTarget:self action:@selector(didChangeSwitcher)
+  [_switcher addTarget:self
+                action:@selector(didChangeSwitcher)
       forControlEvents:UIControlEventValueChanged];
   [self didChangeSwitcher];
 }
 
 - (void)didChangeSwitcher {
-  NSString *title =
-      [_switcher titleForSegmentAtIndex:_switcher.selectedSegmentIndex];
+  NSString *title = [_switcher titleForSegmentAtIndex:_switcher.selectedSegmentIndex];
   NSInteger floor = [title integerValue];
   if (_floor != floor) {
     // Clear existing tileLayer, if any.

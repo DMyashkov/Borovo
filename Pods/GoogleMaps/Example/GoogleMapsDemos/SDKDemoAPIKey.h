@@ -1,5 +1,5 @@
 /*
- * Copyright 2016 Google Inc. All rights reserved.
+ * Copyright 2016 Google LLC. All rights reserved.
  *
  *
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not use this
@@ -12,6 +12,8 @@
  * ANY KIND, either express or implied. See the License for the specific language governing
  * permissions and limitations under the License.
  */
+
+#import <Foundation/Foundation.h>
 
 /**
  * To use GoogleMapsDemos, please register an API Key for your application and set it here. Your
