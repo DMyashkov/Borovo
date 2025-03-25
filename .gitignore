@@ -22,6 +22,20 @@ DerivedData/
 *.perspectivev3
 !default.perspectivev3
 
+Pods/
+Podfile.lock
+
+# macOS system files
+.DS_Store
+
+# Vim/Neovim swap files
+*.swp
+*.swo
+*.swn
+*.un~
+*.bak
+
+
 ## Obj-C/Swift specific
 *.hmap
 
