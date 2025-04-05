@@ -55,11 +55,12 @@
 		95625520257185A20020EA96 /* Rehabilitation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9562551F257185A20020EA96 /* Rehabilitation.swift */; };
 		95625522257185B30020EA96 /* RoadRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95625521257185B30020EA96 /* RoadRules.swift */; };
 		95625524257186100020EA96 /* ImportantObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95625523257186100020EA96 /* ImportantObjects.swift */; };
-		A91F24D09B38FA8B00FDE934 /* libPods-Borovo Blackspots App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0074A99DAE6CE6A7982413C /* libPods-Borovo Blackspots App.a */; };
+		A5C849500F54B4E1F17F87D0 /* Pods_Borovo_Blackspots_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C208677A2302C8F567E64E8 /* Pods_Borovo_Blackspots_App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0B08EBF8FF05393B5A90ED39 /* Pods-Borovo Blackspots App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Borovo Blackspots App.debug.xcconfig"; path = "Target Support Files/Pods-Borovo Blackspots App/Pods-Borovo Blackspots App.debug.xcconfig"; sourceTree = "<group>"; };
+		0C208677A2302C8F567E64E8 /* Pods_Borovo_Blackspots_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Borovo_Blackspots_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D508D7024B61622007C3262 /* InformationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformationsViewController.swift; sourceTree = "<group>"; };
 		31FE2D425A9E53F25C12FAA1 /* Pods-Borovo Blackspots App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Borovo Blackspots App.release.xcconfig"; path = "Target Support Files/Pods-Borovo Blackspots App/Pods-Borovo Blackspots App.release.xcconfig"; sourceTree = "<group>"; };
 		444967C123A58399001C078A /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
@@ -117,7 +118,6 @@
 		9562551F257185A20020EA96 /* Rehabilitation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rehabilitation.swift; sourceTree = "<group>"; };
 		95625521257185B30020EA96 /* RoadRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadRules.swift; sourceTree = "<group>"; };
 		95625523257186100020EA96 /* ImportantObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportantObjects.swift; sourceTree = "<group>"; };
-		B0074A99DAE6CE6A7982413C /* libPods-Borovo Blackspots App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Borovo Blackspots App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,7 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49B4515023B1934C00068891 /* QuartzCore.framework in Frameworks */,
-				A91F24D09B38FA8B00FDE934 /* libPods-Borovo Blackspots App.a in Frameworks */,
+				A5C849500F54B4E1F17F87D0 /* Pods_Borovo_Blackspots_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,7 +252,7 @@
 			isa = PBXGroup;
 			children = (
 				49B4514F23B1934C00068891 /* QuartzCore.framework */,
-				B0074A99DAE6CE6A7982413C /* libPods-Borovo Blackspots App.a */,
+				0C208677A2302C8F567E64E8 /* Pods_Borovo_Blackspots_App.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -278,6 +278,7 @@
 				492BC9D723A2E6AA009CE5BE /* Frameworks */,
 				492BC9D823A2E6AA009CE5BE /* Resources */,
 				E99C7FF50F72364B4D175B88 /* [CP] Copy Pods Resources */,
+				F8BBEAD104259222BCC8C197 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -398,6 +399,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Borovo Blackspots App/Pods-Borovo Blackspots App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8BBEAD104259222BCC8C197 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Borovo Blackspots App/Pods-Borovo Blackspots App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Borovo Blackspots App/Pods-Borovo Blackspots App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Borovo Blackspots App/Pods-Borovo Blackspots App-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
